@@ -1,0 +1,11 @@
+.contents {
+  * {
+    width: 100%;
+  }
+  &.visible {
+    display: block;
+  }
+  &.hidden {
+    display: none;
+  }
+}

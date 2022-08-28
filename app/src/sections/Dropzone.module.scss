@@ -1,0 +1,22 @@
+.dropzone {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  border: 3px dashed #a3a3a3;
+  border-radius: 1rem;
+}
+
+.label {
+  display: block;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input {
+  display: none;
+}
+
+.error {
+  margin-top: 0.5rem;
+  color: #ef4444;
+}

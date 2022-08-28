@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(font/montserrat/Montserrat-VariableFont_wght.ttf);
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+:root {
+  color: #111;
+  background-color: #f8f8f8;
+
+  font-family: Montserrat, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+a {
+  color: #3b82f6;
+  text-decoration: none;
+
+  &:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+}
